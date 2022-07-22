@@ -4,8 +4,12 @@
 <title>Quiz application</title>
 </head>
 <body>
-<script> 
-<div class="center">
+<script>
+    
+body {
+  display:flex; flex-direction:column; justify-content:center;
+  min-height:100vh;
+}
 
     function urine1(){
         document.getElementById("test1").innerHTML = "Pale, odorless and plentiful urine is often in indication that you are well hydrated. Keep drinking at the same rate";
@@ -21,11 +25,9 @@
         document.getElementById("test7").innerHTML = "h";
     }
 </script>
-<body style="width: 100%; max-width: 5000px;"></body>
 <input type="image" src="https://raw.githubusercontent.com/arhum04/arhum04.github.io/main/urine%20images/urine1.JPG" onclick= "urine1()"/><p id="test1"></p>
 <input type="image" src="urine images/urine3.JPG" onclick= "urine3()"/><p id="test3"></p>
 <input type="image" src="urine images/urine5.JPG" onclick= "urine5()"/><p id="test5"></p>
 <input type="image" src="urine images/urine7.JPG" onclick= "urine7()"/><p id="test7"></p>
-</div>
 </body>
 </html>
